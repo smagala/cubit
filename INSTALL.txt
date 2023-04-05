@@ -1,0 +1,30 @@
+CUBIT INSTALL
+=============
+
+You are assumed to have BioEdit installed at `C:\BioEdit\`.
+
+* Adding apps to the BioEdit interface
+
+    Place the `accApp.ini` in your `C:\BioEdit\apps\` folder.  This will
+    add several of the cubit apps to your BioEdit Accessory Apps menu.
+
+    Advanced users: if you have a customized `accApp.ini` file, you can
+    append the records for CUBIT programs from the included .ini file to
+    your own .ini file.  The relevent records are near the bottom of the
+    included .ini file.
+
+* Unpacking CUBIT
+
+    Double-click on `cubit.zip`.  If windows is set to use the default
+    zip file handler, it will pop open an explorer window with a folder
+    named cubit.  Drag and drop this folder to `C:\BioEdit\apps\`.  If
+    the folder already exists, Windows will ask if you want to
+    over-write existing files.  Answer yes.  The main CUBIT package is
+    now installed.
+
+* Sequencing Team (and Becky) ONLY
+
+    If you need any of the sequencing-specific applications,
+    double-click `cubit_extras.zip`.  Drag and drop the cubit folder to
+    `C:\BioEdit\apps\`.  Answer yes when asked about over-writing files.
+    The extra CUBIT apps are now installed.

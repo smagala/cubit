@@ -1,0 +1,30 @@
+CUBIT CHANGELOG
+===============
+
+1.0.1
+-----
+
+* Added influenza B MP and NS genes to fix_frame.
+
+    * B MP: 1076 nt (1-747, 747-1076)
+    * B NS: 1024 nt (1-846, 1-33, 688-1024)
+
+* Bug fix: changed splice sites and length requirements on fix_frame for
+influenza A NS genes.  The splices now match NCBI's translations exactly.
+This now finds one additional amino acid in the NS2 ORF.
+
+    * A MP:  982 nt (1-759, 1-26, 715-982)
+    * A NS:  838 nt (1-639, 1-30, 503-838)
+
+1.0
+---
+
+* Compiled several packages, notably the james/james-tool package and
+swap_plates, into one coherent package for easy distribution.
+
+* Added GUIs for some of the more complicated command line tools, such
+as aadiff.
+
+* Split the package into a main package and an extra package.  The main
+package can be freely distributed, while the extra package is for CDC
+Influenza Division internal use only.

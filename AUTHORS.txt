@@ -1,0 +1,5 @@
+CUBIT AUTHORS
+=============
+
+* James Smagala, Ph.D. <smagala@gmail.com>
+* Melih Gunay <melih_gunay@sra.com>

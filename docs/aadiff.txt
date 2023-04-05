@@ -1,0 +1,73 @@
+AADIFF
+======
+
+NAME
+----
+
+**aadiff** - Generate amino acid difference tables from aligned
+nucleotide coding sequences with ambiguities
+
+SYNOPSIS
+--------
+
+**aadiff** FILE
+
+*OR*
+
+**aadiff.py** FILE
+
+DESCRIPTION
+-----------
+
+Generate an amino acid difference report and difference alignment from a
+flush, in-frame nucleotide alignment.  The first sequence in the file
+will be used as the reference, and all other sequences will be compared
+against it.
+
+>**-h**  
+    show a brief help message and exit
+
+>**--version**  
+    show the program's version number and exit
+
+FILE should be a multi-fasta formatted file containing aligned
+nucleotide sequences.  Sequences are expected to be flush and in-frame.
+Mixed base positions indicated by IUPAC DNA degeneracies will be
+disambiguated.
+
+Two output files will be generated, with names based on the input FILE.
+A 'diff report' will list each position that has a mutation relative to
+the reference sequence, as well as the total number of positions that
+differ.  A 'diff table' shows an alignment containing only positions
+with mutations in the alignment.
+
+For the 'diff table', if a mixed base position is detected that results
+in a mixed amino acid, all possible amino acids will be reported, even
+though this may result in listing an amino acid that is not, in fact, a
+change from the reference sequence.  Note that the reference sequence is
+not disambiguated.
+
+AUTHOR
+------
+
+James Smagala  
+smagala@gmail.com
+
+CONTACT
+-------
+
+Rebecca Garten (primary user)  
+dqy5@cdc.gov
+
+COPYRIGHT
+---------
+
+Copyright (C) 2008 The Centers for Disease Control and Prevention.
+
+---
+
+LANGUAGE
+--------
+
+This tool was written in python2.5.1, and is not known to be backwards
+compatible with earlier versions.

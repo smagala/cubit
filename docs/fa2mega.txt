@@ -1,0 +1,60 @@
+FA2MEGA
+=======
+
+NAME
+----
+
+**fa2mega** - Convert FASTA formatted files to MEGA formatted files.
+
+SYNOPSIS
+--------
+
+**fa2mega** FILE
+
+*OR*
+
+**fa2mega.py** FILE
+
+DESCRIPTION
+-----------
+
+Given a multi-FASTA formatted file, convert it to a MEGA formatted file
+that can be opened without modification by MEGA3.
+
+>**-h**  
+    show a brief help message and exit
+
+>**--version**  
+    show the program's version number and exit
+
+FILE should be a multi-FASTA formatted file, which may contain either
+nucleotide or protein sequences.  One output file will be generated
+containing MEGA formatted sequence records.  The output file will be
+named the same as the input file, with a `.meg` extension. MEGA
+formatted files also have a title attribute, which will be set to the
+name of the input file.
+
+AUTHOR
+------
+
+James Smagala  
+smagala@gmail.com
+
+CONTACT
+-------
+
+Rebecca Garten (primary user)  
+dqy5@cdc.gov
+
+COPYRIGHT
+---------
+
+Copyright (C) 2008, The Centers for Disease Control and Prevention.
+
+---
+
+LANGUAGE
+--------
+
+This tool was written in python2.5.1, and is not known to be backwards
+compatible with earlier versions.

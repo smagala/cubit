@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>mutation_mapper</title>
+</head>
+<body>
+<p><html>
+  <h1>User Manual for Mutation Marker</h1>
+  <h3>Version 1.65</h3>
+  <body>
+     The main entry screen for flu mutation mapping tool is shown below. <br/>
+      <p><img src="docs\\aadiff_gui.png" width="630" height="424"/> </br>
+      <p>
+     The user may navigate through the application by following the
+     numbers assigned from 1 through 3 incrementally. The first task
+     is the selection of the alignment file. Once #1 is selected a set
+     of FASTA files will be displayed for the user to choose from.
+     After selecting FASTA file, user next should pick the newick file
+     in the same manner, #2.  Note that the newick file is the file
+     that should be rooted before loaded to the software.  This will
+     ensure correct mapping of mutations to the tree. <br>
+     <p>
+     Once both the FASTA file of sequences and the newick file of the target tree is chosen. User 
+     may load the newick tree (#3) for <b>Reference Picking</b> by clicking the  "load references" 
+     button.<br>
+     
+     Next the user may pick either a single reference or a group of references by selecting the 
+     tree node as shown in Figure below by clicking #4 <br/>
+      <p><img src="docs\\aadiff_gui-2.png" width="630" height="424  "/> </br>
+      <p>
+      Once reference/s is marked, it is important to select the references by clicking #5. <br>
+      
+      Afterwards, the user may choose to <b>Generate AA Diff Table,
+      Generate AA Change Report, Generate Mutation Tree or Order
+      Fasta</b> by clicking the bottom buttons shown in above Figure.
+      
+      For each action selected above, the user will be presented with a default file name. He/She may 
+      choose to select another file to override or create a new one with another name. Both 
+      <b>Generate AA Diff Table</b> and <b>Generate AA Change Report</b> generate a CSV output that
+      can be imported into Excel for processing. <b>Order Fasta</b> simply orders the sequences
+      according to the given newick file and outputs the file in the "newick" format.
+      
+      <h3>Mutation Tree Marking:</h3>
+      
+      <br> 
+      <p><img src="docs\\aadiff_gui-3.png" width="458" height="86"/> </br>
+      <p>
+      <br>
+      Figure above shows the selection of file format for the Mutation
+      Tree Marking output.  There are 3 options; a) phyloXML, b)
+      newick, c) NeXus (.trees). </br>
+    
+      By default NeXus output option is offered. This is because, the generated tree
+      can be visualized using FigTree software conviniently as shown in Figure below:
+      <p>
+      <p><img src="docs\\figtree.png" width="1024" height="612"/> </br>
+      <p>
+      It is important to note that, unless <b>Branch Labels</b> are
+      marked to display <b>Mutations</b>, the tree will not show
+      them. As circled on the figure, the mutations are labeled at
+      branches.
+  
+      <br><p> As an alternative, phyloXML format is also offered. The
+      generated tree provides options to hide/show node labels for
+      mutations using archaeopteryx as described below.
+      <p>
+      <p><img src="docs\\archptx.png" width="1024" height="616"/> </br>
+     User may hide/show nodes by selecting various combinations of the options circled on the Figure
+     shown above. <br><br>
+     No matter what, in order to see all the data regardless of resolution (zooming), 
+     the user has to uncheck <b>[Dyna hide]</b>. Dyna hide dynamically hides certain text in order
+     to simply the chart and that is often not desired.<br><br>
+     Note also that user may change how these charts are displayed by selecting <b>Options</b> menu
+     item at the top level menu of archaeopteryx. In order to see the graph with white background and
+     blue drawing, please select <b>[Options] -> [Select Colors] -> [White & Blue] </b>. <br><br>
+     In order to improve the chart further and <it>not to colorize by taxonomy</it>, make sure you 
+     uncheck the <b>[Taxonomy Colorize]</b> check box on the left hand side options. 
+     <p>
+     For other options and usage of archaeopteryx please refer to its user manual provided at:<br>
+     <br>
+               http://www.phylosoft.org/archaeopteryx
+     <br>
+     </p>
+     <p>
+      Although, the tree can be saved in the newick format and
+      visualized using the MEGA 5, due to a bug in Mega node labels
+      that are strings can not be visualized at this moment.  <br/>
+     </body>
+     
+</html>
+</body>
+</html>

@@ -1,0 +1,43 @@
+CUBIT THANKS
+============
+
+The development of the CUBIT package has spanned many years and several
+organizations.  Thank you to all who have participated in the process in
+one way or another.
+
+Contributors
+------------
+
+These people are responsible for feature requests, beta testing, bug
+reports, guidance, encouragement, promotion, distribution, teaching
+classes about how to use this software, and other such useful things.
+
+* John Barnes
+* Daniela Dankbar
+* Todd Davis
+* Erica Dawson
+* Becky Garten
+* Rob Kuchta
+* Martin Mehlmann
+* Chad Moore
+* Allison Myrick
+* Kathy Rowlen
+* Catherine Smith
+* Michael Townsend
+
+Helpful Users
+-------------
+
+Bug reports have started to filter in from users.  Thanks to the
+following people for helping to improve these tools.
+
+* Santoshkumar Jadhav
+
+Funding
+-------
+
+* The Rowlen Lab at the University of Colorado, Boulder
+* The National Institute of Allergy and Infectious Disease (U01 AI056528)
+* InDevR, Inc.
+* The Influenza Sequencing Activity at the Centers for Disease Control
+  and Prevention
